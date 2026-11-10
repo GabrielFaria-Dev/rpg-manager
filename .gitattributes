@@ -1,0 +1,8 @@
+# Fim de linha LF em todos os arquivos de texto, em qualquer sistema.
+# Sem isso, o Windows faria checkout em CRLF e os diffs no GitHub mostrariam arquivos inteiros alterados.
+* text=auto eol=lf
+
+/mvnw text eol=lf
+*.cmd text eol=crlf
+
+*.jar binary
